@@ -5,6 +5,7 @@ import { RiFlowerLine } from "react-icons/ri";
 import Link from "next/link";
 import Image from "next/image";
 import Hero from "./hero";
+import Deal from "./deal"
 import Shop from "./shop";
 import ProductR from "./productR";
 
@@ -37,29 +38,8 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Deal of the Day */}
-      <section id="deal" className="relative bg-green-50 py-12">
-        <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-6">Deal of the Day</h2>
-          <Image
-            src="/Aloe-Vera-Bundle.jpg"
-            alt="Deal Product"
-            layout="responsive"
-            width={400}
-            height={400}
-            className="w-full object-cover"
-          />
-          <p className="mt-4 text-gray-600">Get our exclusive product at a discounted price for a limited time.</p>
-          <div className="mt-4 text-green-700">
-            <span>288 Days</span> : <span>15 Hours</span> : <span>10 Mins</span> : <span>15 Secs</span>
-          </div>
-          <button className="mt-6 bg-green-500 text-white px-6 py-3 rounded-full hover:bg-green-600 transition duration-300">
-            Shop Now
-          </button>
-        </div>
-      </section>
-
+       {/* Deal of the Day */}
+       <Deal/>
       {/* Organic Skin & Hair Section */}
       <section className="bg-green-50 py-12">
         <div className="container mx-auto text-center">
