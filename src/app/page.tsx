@@ -15,7 +15,7 @@ export default function Home() {
       <Hero />
 
       {/* Welcome Section */}
-      <section id="home" className="bg-white py-12">
+      <section id="home" className="w-full max-w-screen-2xl mx-auto bg-white py-12">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Welcome to Store</h2>
           <p className="text-gray-600">We offer high-quality organic products that are perfect for your skin, hair, and overall wellness.</p>
@@ -41,7 +41,7 @@ export default function Home() {
        {/* Deal of the Day */}
        <Deal/>
       {/* Organic Skin & Hair Section */}
-      <section className="bg-green-50 py-12">
+      <section className=" w-full max-w-screen-2xl mx-auto bg-green-50 py-12">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Best for Your Organic Skin & Hair</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -92,7 +92,7 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-green-100 py-12">
+      <footer className=" w-full max-w-screen-2xl mx-auto bg-green-100 py-12">
         <div className="container mx-auto text-center md:text-left grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Contact Information */}
           <div id="contact">

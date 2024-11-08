@@ -39,8 +39,8 @@ const Deal: React.FC = () => {
   }, [targetDate]);
 
   return (
-    <section id="deal" className="relative bg-green-50 py-12">
-      <div className="container mx-auto text-center">
+    <section id="deal" className="relative w-full max-w-screen-2xl mx-auto bg-green-50 py-12">
+      <div className="container max-w-screen-2xl mx-auto text-center">
         <h2 className="text-3xl font-bold mb-6">Deal of the Day</h2>
         <Image
           src="/Aloe-Vera-Bundle.jpg"

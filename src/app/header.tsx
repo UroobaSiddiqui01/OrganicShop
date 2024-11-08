@@ -51,13 +51,13 @@ const Header: React.FC = () => {
   }, []);
 
   return (
-    <>
+    <div className="flex justify-center">
       <header
-        className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+        className={`fixed w-full max-w-screen-2xl mx-auto z-50 transition-all duration-300 ${
           isScrolled ? 'bg-white shadow-md' : 'bg-transparent'
         }`}
       >
-        <div className="container mx-auto flex justify-between items-center py-4 px-6">
+        <div className="container max-w-screen-2xl mx-auto flex justify-between items-center py-4 px-6">
           {/* Logo Section */}
           <Link href="/" className="text-2xl font-bold text-green-700">
             Organic
@@ -208,7 +208,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 };
 
